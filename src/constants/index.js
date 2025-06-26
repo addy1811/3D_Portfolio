@@ -19,25 +19,19 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    sketch,
+    brainwave,
     tripguide,
     threejs,
   } from "../assets";
   
   export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
-    {
-      id: "work",
-      title: "Work",
-    },
-    {
-      id: "contact",
-      title: "Contact",
-    },
+    { id: "about",       title: "About",       page: false },
+    { id: "projects",    title: "Projects",    page: false },
+    { id: "contact",     title: "Contact",     page: false },
+    { id: "videos",     title: "Videos",     page: false },
+    { id: "certificates",title: "Certificates",page: true  },
+    { id: "degree",      title: "Degree",      page: true  },
   ];
   
   const services = [
@@ -54,7 +48,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Digital Marketer",
       icon: creator,
     },
   ];
@@ -215,7 +209,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: sketch,
       source_code_link: "https://github.com/",
     },
     {
@@ -236,7 +230,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: brainwave,
       source_code_link: "https://github.com/",
     },
     {

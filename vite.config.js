@@ -6,6 +6,6 @@ export default defineConfig({
   base: '/3D_Portfolio/',  // GitHub Pages base path
   plugins: [react()],
   build: {
-    outDir: 'public',  // Output directory after build
+    outDir: 'dist',  // Output directory after build
   },
 })
