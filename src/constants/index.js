@@ -21,7 +21,7 @@ import {
     shopify,
     sketch,
     brainwave,
-    tripguide,
+    momento,
     threejs,
   } from "../assets";
   
@@ -192,7 +192,7 @@ import {
   
   const projects = [
     {
-      name: "Sketch Processing",
+      name: "Sketchify",
       description:
         "An innovative system designed to convert images into high-quality pencil-drawing-style sketches. The project seamlessly combines advanced computer vision techniques with creative artistry to deliver visually stunning results.",
       tags: [
@@ -201,16 +201,16 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "postgres",
+          name: "docker",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "AWS",
           color: "pink-text-gradient",
         },
       ],
       image: sketch,
-      source_code_link: "https://github.com/",
+      live_demo_link: "http://15.134.219.77",
     },
     {
       name: "Brainwave",
@@ -234,26 +234,27 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Attendance Management",
+      name: "Momento",
       description:
-        "A robust and efficient system designed to streamline attendance tracking for organizations, educational institutions, or businesses. The system leverages modern technologies to ensure accurate, real-time attendance management with user-friendly interfaces and secure data handling.",
+        "A memory storage web application that allows users to capture, organize, and preserve personal moments such as trips, events, and special memories. The platform offers a clean UI, secure data storage, and an intuitive way to revisit memories anytime.",
       tags: [
         {
-          name: "postgres",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "Cloudinary",
           color: "green-text-gradient",
         },
         {
-          name: "EJS",
+          name: "PostgreSQL",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
-    },
+      image: momento,
+      source_code_link: "https://github.com/addy1811/familytracker",
+      live_demo_link: "https://family-track.netlify.app/"
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

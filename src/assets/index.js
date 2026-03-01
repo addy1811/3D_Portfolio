@@ -28,7 +28,7 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import momento from "./momento.png";
 
 import brainwave from "./brainwave.png";
 import sketch from "./sketch.png";
@@ -61,7 +61,7 @@ export {
   tesla,
   carrent,
   jobit,
-  tripguide,
+  momento,
   brainwave,
   sketch,
 };
