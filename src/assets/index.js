@@ -30,7 +30,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import momento from "./momento.png";
 
-import brainwave from "./brainwave.png";
+import stressdetector from "./stressdetector.png";
 import sketch from "./sketch.png";
 
 export {
@@ -62,6 +62,6 @@ export {
   carrent,
   jobit,
   momento,
-  brainwave,
+  stressdetector,
   sketch,
 };
