@@ -20,7 +20,7 @@ import {
     tesla,
     shopify,
     sketch,
-    brainwave,
+    stressdetector,
     momento,
     threejs,
   } from "../assets";
