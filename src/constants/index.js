@@ -213,25 +213,26 @@ import {
       live_demo_link: "http://15.134.219.77",
     },
     {
-      name: "Brainwave",
+      name: "Keystroke Stress Monitor",
       description:
-        "A cutting-edge system designed to analyze and visualize brainwave activity using advanced signal processing and machine learning techniques. This project bridges neuroscience and technology, enabling real-time brainwave tracking for applications in healthcare, education, and wellness.",
+        "A real-time cognitive stress detection system that analyses typing dynamics — hold duration, latency, rhythm, and error rate — to measure stress levels. Built with a PyTorch LSTM model trained using Leave-One-Person-Out cross-validation, ensuring accurate results across different users.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "pytorch",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "flask",
           color: "pink-text-gradient",
         },
       ],
-      image: brainwave,
-      source_code_link: "https://github.com/",
+      image: stressdetector,
+      source_code_link: "https://github.com/addy1811/Stress_Detector",
+      live_demo_link: "https://addy1811.github.io/Stress_Detector/",
     },
     {
       name: "Momento",
