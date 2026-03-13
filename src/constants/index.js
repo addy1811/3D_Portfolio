@@ -248,13 +248,13 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "PostgreSQL",
+          name: "Vercel",
           color: "pink-text-gradient",
         },
       ],
       image: momento,
-      source_code_link: "https://github.com/addy1811/familytracker",
-      live_demo_link: "https://family-track.netlify.app/"
+      source_code_link: "https://github.com/addy1811/momento",
+      live_demo_link: "https://momento-ebon-phi.vercel.app"
     }
   ];
   
